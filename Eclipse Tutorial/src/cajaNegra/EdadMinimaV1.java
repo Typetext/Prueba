@@ -18,6 +18,7 @@ public class EdadMinimaV1 {
 		// TODO Auto-generated method stub
 		int edad1;
 		int edad2;
+		int edad3;
 		
 		Scanner sc=new Scanner (System.in);
 		
@@ -25,7 +26,8 @@ public class EdadMinimaV1 {
 		edad1=sc.nextInt();
 		System.out.println("Introduzca otra edad");
 		edad2=sc.nextInt();
-		
+		System.out.printLn("Introduzca otra edad");
+		edad3=sc.nextInt();
 		if (edad1>edad2){
 			System.out.println("La edad menor es "+edad2);
 		}else{
